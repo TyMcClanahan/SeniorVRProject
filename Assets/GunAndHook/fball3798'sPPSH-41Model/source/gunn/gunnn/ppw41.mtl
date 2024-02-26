@@ -1,0 +1,36 @@
+# Blender 3.6.2 MTL File: 'ppw41.blend'
+# www.blender.org
+
+newmtl Material.002
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl metal
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd maps/ppw41gamemodel_metal_BaseColor.png
+map_Ns maps/ppw41gamemodel_metal_Roughness.png
+map_refl maps/ppw41gamemodel_metal_Metallic.png
+map_Bump -bm 1.000000 maps/ppw41gamemodel_metal_Normal.png
+
+newmtl wood
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd maps/ppw41gamemodel_wood_BaseColor.png
+map_Ns maps/ppw41gamemodel_wood_Roughness.png
+map_refl maps/ppw41gamemodel_wood_Metallic.png
+map_Bump -bm 1.000000 maps/ppw41gamemodel_wood_Normal.png
